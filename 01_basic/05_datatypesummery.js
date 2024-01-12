@@ -21,7 +21,7 @@ let UserEmail ;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 // Non-Primitive or Reference type
 
@@ -29,3 +29,28 @@ console.log(id === anotherId);
 // 2: Object
 // 3: Function
 
+
+
+// ======================== 
+// stack memory(primitive) and heap memory(non-primitive)
+
+let myYouTube="rajiv"
+
+let anotherName = myYouTube
+anotherName = "chaiaur code"
+console.log(myYouTube);
+console.log(anotherName);
+
+
+
+let userOne={
+    email : "user@gmail.com",
+    pay : "user"
+}
+
+let userTwo = userOne
+
+userTwo.email = "rajiv@gamil.com"
+
+console.log(userTwo.email)
+console.log(userOne.email)
