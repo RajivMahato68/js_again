@@ -34,3 +34,8 @@ const myn2 = myArr.splice(1, 3)
 console.log("c",myArr)
 console.log(myn2)
 
+
+// difference between slice and splice is 
+// slice is not manupulated the original array but splice is manipulated the original arry this is a main difference of slice and splice
+
+
