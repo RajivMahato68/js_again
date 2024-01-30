@@ -20,3 +20,23 @@ const coding = ["js", "ruby", "java", "python"]
 //     console.log(item, index, arr);
 // })
 
+const myCodding = [
+    {
+        languageName: "javascript",
+        languagefileName: "js"
+    },
+
+    {
+        languageName: "java",
+        languagefileName: "java"
+    },
+    {
+        languageName: "python",
+        languagefileName: "py"
+    }
+]
+
+myCodding.forEach( (item) => {
+    
+console.log(item.languageName)
+})
