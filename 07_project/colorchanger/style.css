@@ -1,0 +1,54 @@
+body{
+    overflow-x:hidden;
+    overflow: hidden;
+}
+#grey{
+    
+        /* width: 320px;
+        height: 50px; */
+        padding:10px;
+        border: 5px solid black;
+        margin: 10px;
+        background-color: grey;
+      
+}
+#white{
+    
+        width: 320px;
+        height: 50px;
+        padding: 10px;
+        border: 5px solid black;
+        margin: 10px;
+        background-color: white;
+      
+}
+#blue{
+    
+        width: 320px;
+        height: 50px;
+        padding: 10px;
+        border: 5px solid black;
+        margin: 10px;
+        background-color: blue;
+      
+}
+#yellow{
+    
+        width: 320px;
+        height: 50px;
+        padding: 10px;
+        border: 5px solid black;
+        margin: 10px;
+        background-color: yellow;
+      
+}
+#purple{
+    
+        width: 320px;
+        height: 50px;
+        padding: 10px;
+        border: 5px solid black;
+        margin: 10px;
+        background-color: purple;
+      
+}
