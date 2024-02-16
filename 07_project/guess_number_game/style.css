@@ -1,0 +1,26 @@
+body{
+    background-color: #212121;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+.guessField{
+    margin: 20px;
+    height: 25px;
+}
+.guessSubmit{
+    background-color: aqua;
+    cursor: pointer;
+    height: 25px;
+}
+#guess{
+    font-size: 45px;
+}
+#newGame{
+    border: 1px solid black;
+  width: 192px;
+  height: 34px;
+  cursor: pointer;
+  background: blue;
+  margin-left: 560px;
+}
