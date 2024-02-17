@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html events</title>
+</head>
+<body  style="background-color: #414141; color: aliceblue; ">
+    <h2>Amazing image</h2>
+    <div>
+        <ul id="images">
+            <li><img width="200px" id="photoshop" src="../image/pexels-ensaio-da-cegueira-13692598.jpg" alt="photoshop "></li>
+            <li><img width="200px" id="japan" src="../image/pexels-joao-batista-10612161.jpg" alt=""></li>
+            <li><img width="200px" id="river" src="../image/pexels-nikita-pishchugin-19450488.jpg" alt=""></li>
+            <li><img width="200px" id="prayer" src="../image/pexels-sara-20234378(1).jpg" alt=""></li>
+            <li><a style="color: aliceblue;" href="https://google.com" id="google">Google</a></li>
+        </ul>
+    </div>
+</body>
+
+<script>
+    //  document.getElementById('photoshop').onclick = function(){
+    //     alert("photo click")
+    //  }
+
+     //type, timestamp, defaultPrevented
+    // target, toElement, srcElemet, currentTarget
+    // clientX, clientY, screenX, sereenY
+    //altkey, ctrlkey, shiftkey, keyCode
+
+    
+    // document.getElementById('images').addEventListener('click', function(e){
+    //     console.log("clicked inside the ul");
+    // },false)
+    // document.getElementById('river').addEventListener('click', function(e){
+    //     console.log("wl clicked inside the ul");
+    //     e.stopPropagation()
+    // },false)
+
+    //     document.getElementById('google').addEventListener('click',function(e){
+    //         e.preventDefault();
+    //         e.stopPropagation()
+    //         console.log("google clicked");
+    //     })
+
+    document.querySelector('#images').addEventListener('click',function(e){
+console.log(e.target.parentNode)
+if (e.target.tagName === 'IMG') {
+    console.log(e.target.id)
+    let removeIt = e.target.parentNode
+    removeIt.remove()
+    
+}
+// removeIt.parentNode.removeChild(removeIt)
+    })
+
+</script>
+
+</html>
